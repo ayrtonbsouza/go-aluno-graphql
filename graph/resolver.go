@@ -8,4 +8,6 @@ import "github.com/ayrtonbsouza/go-aluno-graphql/graph/model"
 
 type Resolver struct {
 	Categories []*model.Category
+	Courses    []*model.Course
+	Chapters   []*model.Chapter
 }
